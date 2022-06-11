@@ -7,3 +7,19 @@ body {
     color: #fff;
     font-family: sans-serif;
 }
+
+
+.cabecalho nav ul{
+   display: flex;
+}
+.cabecalho nav ul li{
+    text-align: right;
+    margin: 2rem;
+}
+.cabecalho nav{
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
