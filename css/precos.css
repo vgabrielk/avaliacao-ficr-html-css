@@ -6,4 +6,73 @@ body {
     background-color: #020D18;
     color: #fff;
     font-family: sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(to bottom, #ff7200, transparent);
+    display: flex;
+    align-items: center;
+}
+.header nav {
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.header nav ul {
+    display: flex;
+}
+.header nav ul li {
+    list-style: none;
+    margin-left: 2rem;
+    transition: .4s ease-in-out;
+    padding: 1rem ;
+}
+.header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.header nav ul li:hover{
+    transform: translateY(-4px);
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+ .imagem{
+    text-align: center;
+}
+.imagem h2 {
+    text-shadow: 6px 6px 10px black;
+}
+.h3{
+    text-align: center;
+}
+
+.border{
+    border:5px solid black;
+    text-align: center;
+    margin: auto;
+
+}
+
+.section{
+    text-align: center;
+    text-shadow: 2px 3px 7px purple;
+}
+
+
+.background-image {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: blur(8px);
+    z-index: -1;
 }
